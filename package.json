@@ -1,0 +1,24 @@
+{
+  "name": "movie-finder-bot",
+  "version": "1.0.0",
+  "description": "The Bot, which recommends you a movie according to your description",
+  "main": "index.js",
+  "author": "Denys Shmahailo",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^2.0.22",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2"
+  }
+}
